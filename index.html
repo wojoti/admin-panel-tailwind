@@ -4,8 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <title>Pickbazar | E-Commerce</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <div
+      class="flex items-center justify-center h-screen bg-light sm:bg-gray-100"
+    >
+      <div class="w-11/12 md:w-96 md:bg-white md:p-10">
+        <div class="flex justify-center">
+          <img src="img/logo.webp" class="w-32" alt="Website logo" />
+        </div>
+        <div class="flex justify-center align-center py-7">
+          <p class="italic text-slate-500 text-lg">Login to admin</p>
+        </div>
+        <div class="flex flex-col w-full">
+          <label for="email" class="font-medium text-slate-500 mb-2"
+            >Email</label
+          >
+          <input
+            id="email"
+            name="email"
+            type="email"
+            class="border rounded-md border-solid border-1 border-slate-300 text-sm h-12 px-4"
+          />
+        </div>
+        <div class="flex flex-col w-full">
+          <div class="flex justify-between items-center w-full my-2">
+            <label for="password" class="font-medium text-slate-500"
+              >Password</label
+            >
+            <a href="#" class="text-xs text-green-600">Forgot password?</a>
+          </div>
+          <input
+            id="password"
+            name="password"
+            type="password"
+            class="border rounded-md border-solid border-1 border-slate-300 text-sm h-12 px-4"
+          />
+        </div>
+        <div>
+          <button
+            type="button"
+            class="rounded-md text-sm h-12 w-full bg-emerald-600 font-medium text-xl text-white my-5"
+          >
+            Login
+          </button>
+        </div>
+        <div class="relative mt-2 mb-7">
+          <hr class="w-full" />
+          <p class="absolute bg-white left-1/2 px-2 text-center -top-3">Or</p>
+        </div>
+        <div class="flex justify-center">
+          <p class="text-slate-500 text-m text-center">
+            Don't have any account?
+            <a href="#" class="text-emerald-600 underline font-medium"
+              >Register as Shop Owner</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

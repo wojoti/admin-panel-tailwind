@@ -11,7 +11,9 @@
     <div
       class="flex items-center justify-center h-screen bg-light sm:bg-gray-100"
     >
-      <div class="w-11/12 md:w-96 md:bg-white md:p-10">
+      <div
+        class="w-11/12 md:w-[26rem] md:bg-white md:p-10 md:shadow md:rounded-md"
+      >
         <div class="flex justify-center">
           <img src="img/logo.webp" class="w-32" alt="Website logo" />
         </div>
@@ -26,7 +28,7 @@
             id="email"
             name="email"
             type="email"
-            class="border rounded-md border-solid border-1 border-slate-300 text-sm h-12 px-4"
+            class="border rounded-md border-solid border-1 border-slate-300 text-sm h-12 px-4 transition duration-300 ease-in-out focus:border-emerald-600 outline-0"
           />
         </div>
         <div class="flex flex-col w-full">
@@ -40,12 +42,13 @@
             id="password"
             name="password"
             type="password"
-            class="border rounded-md border-solid border-1 border-slate-300 text-sm h-12 px-4"
+            class="border rounded-md border-solid border-1 border-slate-300 text-sm h-12 px-4 transition duration-300 ease-in-out focus:border-emerald-600 outline-0"
           />
         </div>
         <div>
           <button
             type="button"
+            onclick="location.href = 'main.html';"
             class="rounded-md text-sm h-12 w-full bg-emerald-600 font-medium text-xl text-white my-5"
           >
             Login
